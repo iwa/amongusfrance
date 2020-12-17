@@ -9,7 +9,7 @@ body {
     position: relative;
     width: 30em;
     padding: 2em 1em;
-    margin: 8em auto 0 auto;
+    margin: 6em auto 6em auto;
     text-align: center;
     border-radius: 1.5em;
     border: 1px solid #2b2d31;
@@ -31,8 +31,20 @@ body {
 }
 
 #desc {
-    margin: 2em 0 4em 0;
+    margin: 2em 0 2em 0;
     font-weight: 300;
+}
+
+ul {
+    list-style: none;
+    margin: 0 0 2em 0;
+    font-weight: 400;
+    padding: 0;
+}
+
+ul > li {
+    text-align: justify;
+    padding: 0 0 2em 0;
 }
 
 #inviteButton {
