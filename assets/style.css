@@ -26,6 +26,7 @@ body {
     border-radius: 1.5em;
     border: 1px solid #2b2d31;
     background-color: #303236;
+    transition: 0.5s ease;
 }
 
 #logo {
