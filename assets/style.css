@@ -8,19 +8,20 @@ body {
 @media only screen and (max-width: 600px)  {
     #card {
         width: 90%;
+        margin: 1.5em auto 1.5em auto;
     }
 }
 
 @media only screen and (min-width: 600px)  {
     #card {
         width: 30em;
+        margin: 6em auto 6em auto;
     }
 }
 
 #card {
     position: relative;
     padding: 2em 1em;
-    margin: 6em auto 6em auto;
     text-align: center;
     border-radius: 1.5em;
     border: 1px solid #2b2d31;
