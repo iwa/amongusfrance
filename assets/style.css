@@ -60,7 +60,7 @@ ul > li {
     padding: 0 0 2em 0;
 }
 
-#inviteButton {
+#inviteButton, #inviteButton:link, #inviteButton:visited {
     margin: 0;
     font-family: 'Lato', sans-serif;
     font-size: 1em;
@@ -74,18 +74,19 @@ ul > li {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	cursor: pointer;
-	transition: 0.2s ease;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.2s ease;
 }
 
-#inviteButton:hover {
+#inviteButton:hover, #inviteButton:active {
     background: #6B7FC5;
 }
 
-blue {
+.blue {
     color: #74b9ff;
 }
 
-red {
+.red {
     color: #ff7675;
 }
