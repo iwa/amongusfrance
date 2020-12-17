@@ -5,9 +5,20 @@ body {
     color: #ffffff;
 }
 
+@media only screen and (max-width: 600px)  {
+    #card {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 600px)  {
+    #card {
+        width: 30em;
+    }
+}
+
 #card {
     position: relative;
-    width: 30em;
     padding: 2em 1em;
     margin: 6em auto 6em auto;
     text-align: center;
